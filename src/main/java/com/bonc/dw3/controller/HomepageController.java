@@ -21,7 +21,7 @@ import java.util.concurrent.ExecutionException;
 @RequestMapping("/HomePage")
 public class HomepageController {
 
-    //homepage service对象
+    //HomepageService对象
     @Autowired
     HomepageService homepageService;
 
